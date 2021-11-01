@@ -71,7 +71,7 @@ header button img {
   margin-left: 20px;
   margin-right: 40px;
   background-color: aliceblue;
-  background-image: url(../img/check-solid.svg);
+  background-image: url(./img/check-solid.svg);
   background-size: 80%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
