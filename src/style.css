@@ -1,0 +1,100 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  max-width: 1088px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 92px;
+  margin-bottom: 80px;
+}
+header h1 {
+  font-size: 56px;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 12px;
+  color: #1b2144;
+}
+header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+header button img {
+  width: 35px;
+}
+
+.create-task {
+  background-color: #1b2144;
+  max-width: 1088px;
+  margin: 0 auto;
+  height: 87px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.create-task input {
+  background: none;
+  width: 600px;
+  height: 30px;
+  border: none;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+.create-task input::placeholder {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+.check {
+  width: 54px;
+  height: 54px;
+  border: 3px solid hsla(0, 0%, 100%, 0.56);
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.checked {
+  width: 54px;
+  height: 54px;
+  border: 3px solid hsla(0, 0%, 100%, 0.56);
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 40px;
+  background-color: aliceblue;
+  background-image: url(../img/check-solid.svg);
+  background-size: 80%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.text-checked {
+  color: hsla(0, 0%, 100%, 0.4);
+  text-decoration: line-through;
+}
+.group-task {
+  max-width: 1088px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.task {
+  width: 100%;
+  height: 87px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #1b2144;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2px;
+}

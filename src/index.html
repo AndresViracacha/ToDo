@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>TODO</h1>
+    <button id="log-in">
+      <img src="../img/user-solid.svg" alt="">
+    </button>
+  </header>
+  <main>
+    <form class="create-task" id="create-task">
+      <div class="check"></div>
+      <input type="text" placeholder="Escribe una nueva tarea" name="input-task" id="input-task">
+    </form>
+
+    <div class="group-task">
+      <button class="task">
+        <div class="checked"></div>
+        <p class="text-checked">aDescripcion de tarea</p>
+      </button>
+      <button class="task">
+        <div class="check"></div>
+        <p>Descripcion de tarea</p>
+      </button>
+      <button class="task">
+        <div class="check"></div>
+        <p>Descripcion de tarea</p>
+      </button>
+      <button class="task">
+        <div class="check"></div>
+        <p>Descripcion de tarea</p>
+      </button>
+
+    </div>
+  </main>
+
+  <script type="module" src="./main.js">
+  </script>
+
+</body>
+
+</html>
